@@ -1,4 +1,4 @@
-## Sample ruby applications for distributed tracing
+## Sample ruby applications for distributed tracing using Jaeger and OpenTracing
 
 
 ### Workflow

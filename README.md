@@ -17,13 +17,17 @@ Verify that the Web UI is accessible at `http://localhost:16686`
 ```
 bundle install
 ruby service-x/server.rb -p 4567
-curl http://localhost:4567/hello
+curl http://localhost:4567
 ```
 
 **3. Run service-y**
 ```
 bundle install
-ruby service-x/server.rb -p 4567
-curl http://localhost:4567/hello
+ruby service-x/server.rb -p 4568
+curl http://localhost:4568
 ```
+
+### Collect distributed trace on Jaeger UI
+
+![alt text](images/tracing.png)
 

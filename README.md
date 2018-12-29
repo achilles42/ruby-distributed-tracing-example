@@ -23,7 +23,7 @@ curl http://localhost:4567
 **3. Run service-y**
 ```
 bundle install
-ruby service-x/server.rb -p 4568
+ruby service-y/server.rb -p 4568
 curl http://localhost:4568
 ```
 
